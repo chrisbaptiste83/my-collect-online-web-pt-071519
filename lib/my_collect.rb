@@ -1,4 +1,4 @@
-
+array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 def my_collect(array)
   i = 0
   first_name_collection = []
@@ -8,3 +8,4 @@ def my_collect(array)
   end
   name_collection
 end 
+ 
