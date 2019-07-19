@@ -6,6 +6,6 @@ def my_collect(array)
     first_name_collection << yield(array[i])
     i += 1
   end
-  name_collection
+  first_name_collection
 end 
  my_collect(array) {|i| i.split(" ").first}
